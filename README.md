@@ -75,3 +75,15 @@ class UserSchema(Schema):
 @app.route('/spend')
 @app.route('/balance')
 ```
+# Usage
+```
+git clone https://github.com/jsanchez78/Fetch_Rewards_HTTP.git
+```
+```
+cd Fetch_Rewards_HTTP
+```
+```
+python app.py
+```
+## Transactions
+In your app.py, 

@@ -18,4 +18,14 @@ class User(object):
         self.points = points
         self.timestamp = timestamp
 ```
+## Serializer Schema
+```python
+class UserSchema(Schema):
+    payer = fields.Str()
+    points = fields.Int()
+    timestamp = fields.DateTime()
+
+    def make_object(self, data):
+        return User(**data)
+```
 

@@ -68,3 +68,10 @@ class UserSchema(Schema):
   }
 }
 ```
+# Routes
+```python
+@app.route("/", methods=["POST", "GET"])
+@app.route('/add', methods=['GET'])
+@app.route('/spend')
+@app.route('/balance')
+```

@@ -89,13 +89,6 @@ http://127.0.0.1:5000/add
 
 This will populate all data from json by default.
 
-## Spend
-
-In the url from above append /spend
-http://127.0.0.1:5000/spend
-
-This will run the points algorithm, spending points from list of transactions based on precedence of the timestamp.
-
 ```json
 [
   {
@@ -125,10 +118,13 @@ This will run the points algorithm, spending points from list of transactions ba
   }
 ]
 ```
-## Balances
 
-In the url from above append /balance
-http://127.0.0.1:5000/balance
+## Spend
+
+In the url from above append /spend
+http://127.0.0.1:5000/spend
+
+This will run the points algorithm, spending points from list of transactions based on precedence of the timestamp.
 
 ```json
 [
@@ -146,6 +142,11 @@ http://127.0.0.1:5000/balance
   }
 ]
 ```
+## Balances
+
+In the url from above append /balance
+http://127.0.0.1:5000/balance
+
 
 This will display the result of the updated users based on points spent.
 

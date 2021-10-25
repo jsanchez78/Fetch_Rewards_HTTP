@@ -176,5 +176,5 @@ Enter the following below as a sample:
 
 ## What's next
 
-[HTTP authentication] (https://docs.python-requests.org/en/latest/user/authentication/)
+[HTTP authentication](https://docs.python-requests.org/en/latest/user/authentication/)
 

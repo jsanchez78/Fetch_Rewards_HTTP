@@ -157,3 +157,19 @@ This will display the result of the updated users based on points spent.
 "MILLER COORS": 5300
 }
 ```
+
+## Individual Transactions
+
+Clients can add users to transactions from http://127.0.0.1:5000
+
+Enter json in the text field and click submit. 
+
+Enter 
+
+```json
+{
+        "payer": "DANNON",
+        "points": 6000,
+        "timestamp": "2020-12-02T14:00:00Z"
+    }
+```

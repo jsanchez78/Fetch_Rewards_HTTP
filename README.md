@@ -164,7 +164,7 @@ Clients can add users to transactions from http://127.0.0.1:5000
 
 Enter json in the text field and click submit. 
 
-Enter 
+Enter the following below as a sample:
 
 ```json
 {
@@ -173,3 +173,8 @@ Enter
         "timestamp": "2020-12-02T14:00:00Z"
     }
 ```
+
+## What's next
+
+[HTTP authentication] (https://docs.python-requests.org/en/latest/user/authentication/)
+

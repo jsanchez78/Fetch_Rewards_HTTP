@@ -78,12 +78,10 @@ class UserSchema(Schema):
 # Usage
 ```
 git clone https://github.com/jsanchez78/Fetch_Rewards_HTTP.git
-```
-```
 cd Fetch_Rewards_HTTP
-```
-```
 python app.py
 ```
+Default browser will open http://127.0.0.1:5000/
+
 ## Transactions
 In your app.py, 
